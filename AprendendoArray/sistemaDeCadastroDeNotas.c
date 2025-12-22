@@ -35,7 +35,7 @@ int main()
             printf("\nNome do aluno:\n");
             scanf(" %s", notas[i].nome);
 
-            printf("\nNota do aluno:\n");
+            printf("\nNota do aluno(obs:ponha . ao inves de ,):\n");
             scanf("%f", &notas[i].not);
 
             printf("\nCadastro completo\n");
