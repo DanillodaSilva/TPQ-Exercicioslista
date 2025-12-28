@@ -11,10 +11,9 @@ int main()
   {
     printf("\nDiga o numero:\n");
     scanf("%d", &numeroDeParada);
-    nuemroDeContagem ++;
+    nuemroDeContagem++;
   }
   printf("\n%d\n", nuemroDeContagem);
 
   return 0;
 }
-

@@ -4,24 +4,28 @@ Entrada: N (N ≥ 1) seguido de N inteiros. Saída: MIN: a MAX: b. Exemplo: 5 e 
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int N, numero;
     int menor, maior;
 
-    scanf("%d", &N);      // lê quantos números vão ser digitados
+    scanf("%d", &N); // lê quantos números vão ser digitados
 
     scanf("%d", &numero); // lê o primeiro número
     menor = numero;
     maior = numero;
 
-    for (int i = 1; i < N; i++) {
+    for (int i = 1; i < N; i++)
+    {
         scanf("%d", &numero);
 
-        if (numero < menor) {
+        if (numero < menor)
+        {
             menor = numero;
         }
 
-        if (numero > maior) {
+        if (numero > maior)
+        {
             maior = numero;
         }
     }

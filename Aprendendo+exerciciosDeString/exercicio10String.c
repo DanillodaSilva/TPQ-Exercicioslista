@@ -12,7 +12,7 @@ int main()
   printf("Digite a substring:\n");
   fgets(sub, 50, stdin);
 
-    texto[strcspn(texto, "\n")] = '\0';
+  texto[strcspn(texto, "\n")] = '\0';
   sub[strcspn(sub, "\n")] = '\0';
 
   char *resultado = strstr(texto, sub);

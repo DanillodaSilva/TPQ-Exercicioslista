@@ -1,13 +1,14 @@
 #include <stdio.h>
 
-int main (){
-  int numeroEscolhido, multiplicacao , numeroInicial = 0;
+int main()
+{
+  int numeroEscolhido, multiplicacao, numeroInicial = 0;
   printf("\nEscolha um numero para receber a tabuada:\n");
   scanf("%d", &numeroEscolhido);
   while (numeroInicial <= 10)
   {
     multiplicacao = numeroInicial * numeroEscolhido;
-    numeroInicial ++;
+    numeroInicial++;
     printf("\n%d", multiplicacao);
     multiplicacao = 0;
   };

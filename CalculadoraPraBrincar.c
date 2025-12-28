@@ -1,13 +1,15 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
   int op;
-  int continuar = 1;          
+  int continuar = 1;
   float num1, num2, resultado;
 
   printf("\n\nBem vindo a calculadora do Danillo\n\n");
 
-  do {
+  do
+  {
     printf("\nEscolha um numero: \n");
     scanf("%f", &num1);
 
@@ -20,32 +22,32 @@ int main(){
 
     switch (op)
     {
-      case 1:
-        resultado = num1 + num2;
-        printf("O resultado da adicao e %.2f", resultado);
-        break;
+    case 1:
+      resultado = num1 + num2;
+      printf("O resultado da adicao e %.2f", resultado);
+      break;
 
-      case 2:
-        resultado = num1 - num2;
-        printf("O resultado da Subtracao e %.2f", resultado);
-        break;
+    case 2:
+      resultado = num1 - num2;
+      printf("O resultado da Subtracao e %.2f", resultado);
+      break;
 
-      case 3:
-        resultado = num1 * num2;
-        printf("O resultado da multiplicacao e %.2f", resultado);
-        break;
+    case 3:
+      resultado = num1 * num2;
+      printf("O resultado da multiplicacao e %.2f", resultado);
+      break;
 
-      case 4:
-        resultado = num1 / num2;
-        printf("O resultado da divisao e %.2f", resultado);
-        break;
+    case 4:
+      resultado = num1 / num2;
+      printf("O resultado da divisao e %.2f", resultado);
+      break;
 
-      default:
-        printf("Opcao invalida");
+    default:
+      printf("Opcao invalida");
     }
 
     printf("\n\nDeseja Fazer outra operacao:\nSim(1)   Nao(2)\n");
-    scanf("%d", &continuar);  
+    scanf("%d", &continuar);
 
   } while (continuar != 2);
 

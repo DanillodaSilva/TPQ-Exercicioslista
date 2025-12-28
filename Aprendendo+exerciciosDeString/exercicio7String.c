@@ -6,8 +6,8 @@ int main()
 {
   char palavra[50];
 
-      printf("\nDigite uma palavra\n");
-  fgets(palavra, 50 , stdin);
+  printf("\nDigite uma palavra\n");
+  fgets(palavra, 50, stdin);
   for (int i = 0; i <= strlen(palavra); i++)
   {
     if (palavra[i] == 'a')

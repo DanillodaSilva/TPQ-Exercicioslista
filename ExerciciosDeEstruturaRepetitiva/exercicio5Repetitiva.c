@@ -5,13 +5,13 @@ int main()
 
   while (numeroInicial <= 10)
   {
-      printf("\nDiga os numeros:\n");
-  scanf("%d", &numeroEscolhido);
+    printf("\nDiga os numeros:\n");
+    scanf("%d", &numeroEscolhido);
     if (numeroEscolhido % 2 == 0)
     {
-     numeroDeContagem ++; 
+      numeroDeContagem++;
     };
-    numeroInicial ++;
+    numeroInicial++;
   };
   printf("\n%d\n", numeroDeContagem);
   return 0;

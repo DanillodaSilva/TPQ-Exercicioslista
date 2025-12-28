@@ -13,11 +13,10 @@ int main()
   {
     if (isspace(palavra[i]) != 0)
     {
-      contador ++;
+      contador++;
     }
-    
   }
-  
+
   printf("Essa frase tem %d palavras", contador);
   return 0;
 }

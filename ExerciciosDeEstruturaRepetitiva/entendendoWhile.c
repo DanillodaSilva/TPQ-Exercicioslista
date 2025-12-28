@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
   int contador = 10;
 
   /*while (contador <= 5){
@@ -10,14 +11,13 @@ int main(){
 
   printf("\nFIM!\n");
 */
-do {
-  printf("%d\n", contador);
-  contador ++;
-}
-while (contador <= 5);
+  do
+  {
+    printf("%d\n", contador);
+    contador++;
+  } while (contador <= 5);
 
-printf("\nFIM!\n");
-
+  printf("\nFIM!\n");
 
   return 0;
 }

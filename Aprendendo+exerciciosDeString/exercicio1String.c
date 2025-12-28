@@ -1,4 +1,4 @@
-#include <stdio.h> 
+#include <stdio.h>
 #include <string.h>
 
 int main()
@@ -9,9 +9,6 @@ int main()
   printf("\n%s\n", exemploDeString);
 
   printf("\nO tamanho do texto eh: %d\n", strlen(exemploDeString));
-   
-   
-
 
   return 0;
 }

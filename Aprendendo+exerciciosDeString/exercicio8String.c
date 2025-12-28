@@ -22,7 +22,9 @@ int main()
   if (strcmp(palavraInv, palavra) == 0)
   {
     printf("\nEssa palavra e um palindromo\n");
-  }else{
+  }
+  else
+  {
     printf("\nEssa palavra nao e um palindromo pois se escreve %s e a ao contrario e %s\n", palavra, palavraInv);
   }
 
