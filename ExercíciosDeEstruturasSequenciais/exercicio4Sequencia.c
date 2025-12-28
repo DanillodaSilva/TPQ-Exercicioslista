@@ -4,22 +4,26 @@ variável B passe a ter o valor da variável A. Ao final, imprima os valores com
 efetuada*/
 #include <stdio.h>
 
-int main(){
+int main()
+{
   int num1, num2, escolha, aux;
   printf("\n\nEscolha um numero para representar a variavel A:");
-   scanf("%d", &num1); 
+  scanf("%d", &num1);
   printf("\nAgora escolha um numero pra representar a variavel B:");
-   scanf("%d", &num2); 
+  scanf("%d", &num2);
   printf("\nVoce quer inverter os valores?\n(1)Sim\n(2)Nao\n");
-   scanf("%d", &escolha);
-   if (escolha == 1){
+  scanf("%d", &escolha);
+  if (escolha == 1)
+  {
     aux = num1;
     num1 = num2;
     num2 = aux;
     printf("\n\n Vish me confundi e troquei os valores A e %d e B e %d", num1, num2);
-   } else if(escolha == 2){
+  }
+  else if (escolha == 2)
+  {
     printf("Po entao voce so me fez perder tempo te perguntando maltdito");
-   };
-   
+  };
+
   return 0;
 }

@@ -5,8 +5,9 @@ a. A idade dessa pessoa em anos
 b. A idade dessa pessoa em meses
 c. A idade dessa pessoa em dias
 d. A idade dessa pessoa em semana*/
-int main(){
-  int atual,nasc,anos,meses,dias,semanas;
+int main()
+{
+  int atual, nasc, anos, meses, dias, semanas;
   printf("\n\nBem vindo ao calculador de tempo de vida!!\n Precisaremos de algumas informacoes para comecar");
   printf("\nEm que ano estamos? ");
   scanf("%d", &atual);
@@ -16,6 +17,6 @@ int main(){
   meses = anos * 12;
   dias = anos * 365;
   semanas = anos * 52;
-printf("\nVoce tem: \nAnos: %d\nMeses: %d\nDemanas: %d\nDias: %d", anos, meses, semanas, dias);
+  printf("\nVoce tem: \nAnos: %d\nMeses: %d\nDemanas: %d\nDias: %d", anos, meses, semanas, dias);
   return 0;
 }

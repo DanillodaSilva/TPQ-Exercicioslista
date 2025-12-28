@@ -10,6 +10,7 @@ int main()
 
   printf("\nO tamanho do texto eh: %d\n", strlen(exemploDeString));
    
+   
 
 
   return 0;
